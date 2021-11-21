@@ -28,4 +28,4 @@ html {
   flex-flow: column;
 }
 
-@include frort(blur(10px));
+@include frort("blur(10px)");
