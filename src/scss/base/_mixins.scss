@@ -49,5 +49,5 @@
 }
 
 @mixin frost($filter-type,$filter-amount) {
-	-backdrop-filter: $filter-type+unquote('(#{$filter-amount})');
+	backdrop-filter: $filter-type+unquote('(#{$filter-amount})');
 }
