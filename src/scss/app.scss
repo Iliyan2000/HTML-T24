@@ -28,4 +28,6 @@ html {
   flex-flow: column;
 }
 
-@include frost("10px");
+.button {
+	@include frost(10px);
+}
